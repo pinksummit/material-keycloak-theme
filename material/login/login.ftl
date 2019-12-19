@@ -87,8 +87,8 @@
                             </#if>
                         </div>
                         <div id="kc-form-buttons" class="col-xs-5 ${properties.kcFormButtonsClass!}">
-                            <div class="${properties.kcFormButtonsWrapperClass!}">
-                                <button class="mdc-button mdc-button--raised ${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonLargeClass!}" name="login" id="kc-login" type="submit">
+                            <div class="${properties.kcFormButtonsWrapperClass!}" style="text-align: center;">
+                                <button class="mdc-button mdc-button--raised ${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonLargeClass!}" name="login" id="kc-login" type="submit" style="float: none;">
                                     ${msg("doLogIn")}
                                 </button>
                             </div>

@@ -34,11 +34,15 @@
 
 <body class="${properties.kcBodyClass!} template">
     <div id="kc-logo"><a href="${properties.kcLogoLink!'#'}"><div id="kc-logo-wrapper"></div></a></div>
+    <div class="nav-header-toolbar">
+        <div class="login-header-toolbar-title">AlwaysOnScene</div>
+        <div class="login-header-toolbar-tagline">"Solutions that Build Partnerships"</div>
+    </div>
 
     <div id="kc-container" class="${properties.kcContainerClass!}">
         <div id="kc-container-wrapper" class="${properties.kcContainerWrapperClass!}">
 
-            <div id="kc-header" class="${properties.kcHeaderClass!}">
+            <div id="kc-header" class="${properties.kcHeaderClass!}" style="margin-top: 40px">
                 <div id="kc-header-wrapper" class="${properties.kcHeaderWrapperClass!}"><#nested "header"></div>
             </div>
 
@@ -60,6 +64,42 @@
                     <div id="kc-form" class="${properties.kcFormAreaClass!}">
                         <div id="kc-form-wrapper" class="${properties.kcFormAreaWrapperClass!}">
                             <#nested "form">
+                        </div>
+                        <div>
+                            <hr/>
+                            <ol style="padding-left: 15px; margin-top: 10px;">
+                                <li>Type your User ID and Password</li>
+                                <li>Click the Login button</li>
+                            </ol>
+                            <hr/>
+                            <p>
+                                Volunteers:
+                            </p>
+                            <ul>
+                                <li>
+                                Check your email for your temporary username and password then follow the instructions to set your first password prior to logging in
+                                </li>
+                                <li>
+                                Forgot Password: <a>Reset Password</a>
+                                </li>
+                                <li>
+                                If you did not receive email or still need help: Contact <a>Support</a>
+                                </li>
+                            </ul>
+                            <p>
+                                Career:
+                            </p>
+                            <ul>
+                                <li>
+                                If this is your first-time logging in, please email <a>Support</a> for instructions
+                                </li>
+                                <li>
+                                Forgot Password: Contact Service Desk at (321) 555-4357
+                                </li>
+                                <li>
+                                If you you still need help: Contact <a>Support</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
 

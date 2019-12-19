@@ -1,0 +1,80 @@
+.nav-header-toolbar {
+    background-color: #607d8b;
+    border-top: 2px solid #546e7a;
+    border-bottom: 2px solid #546e7a;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px;
+}
+
+.login-header-toolbar-title {
+    font-size: 1.5em !important;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    float:left;
+  }
+  
+.login-header-toolbar-tagline {
+    font-size: 1.5em !important;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    text-align: right;
+}
+
+.login-card {
+    text-align: left;
+    margin: 30px auto;
+    width: 50%;
+    height: 500px;
+}
+
+.login-card-title {
+    text-align: center;
+}
+
+.login-card-form {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.login-card-button {
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+
+.login-card-footer {
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    background: #546E7A;
+    text-align: left;
+    padding: 15px;
+}
+
+.login-button {
+    text-align: center;
+}
+
+ul li {
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: underline;
+    color: deepskyblue;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
