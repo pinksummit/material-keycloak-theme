@@ -5,7 +5,8 @@
         ${msg("loginTitle",(realm.displayName!''))?no_esc}
     <#elseif section = "header">
 	<div class="title">
-            ${msg("loginTitleHtml",(realm.displayNameHtml!''))?no_esc}
+            <h4 class="login-title">${msg("loginTitleHtml",(realm.displayNameHtml!''))?no_esc}</h4>
+            <h4 class="login-dept">Prince George's County Fire/EMS Department</h4>
     </div>
     <#elseif section = "form">
         <#if realm.password>
