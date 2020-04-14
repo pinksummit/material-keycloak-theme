@@ -2,13 +2,14 @@
     background-color: #607d8b;
     border-top: 2px solid #546e7a;
     border-bottom: 2px solid #546e7a;
-    height: 40px;
-    line-height: 40px;
-    padding: 10px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    padding-right: 20px;
 }
 
 .login-header-toolbar-title {
-    font-size: 1.5em !important;
+    font-size: 20px! important;
     font-style: italic;
     font-weight: bold;
     color: white;
@@ -16,7 +17,7 @@
   }
   
 .login-header-toolbar-tagline {
-    font-size: 1.5em !important;
+    font-size: 1em !important;
     font-style: italic;
     font-weight: bold;
     color: white;
@@ -69,6 +70,14 @@
 
 .login-dept {
     margin: 10px; 
+}
+
+.login-icon {
+    bottom: 7px !important;
+}
+
+.aos-kc-header {
+    margin-top: 10px !important;
 }
 
 ul li {

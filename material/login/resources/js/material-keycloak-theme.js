@@ -15,13 +15,12 @@ window.onload = function() {
     });
 
     // initialize the language select box
-    var select = new mdc.select.MDCSelect(
-        document.querySelector('.language-picker .mdc-select')
-    );
-
-    select.listen('change', function() {
-        var redirectUrl = document.querySelector('#language-picker-dropdown')
-            .value;
-        window.location.href = redirectUrl;
-    });
+    // var select = new mdc.select.MDCSelect(
+    //     document.querySelector('.language-picker .mdc-select')
+    // );
+    // select.listen('change', function() {
+    //     var redirectUrl = document.querySelector('#language-picker-dropdown')
+    //         .value;
+    //     window.location.href = redirectUrl;
+    // });
 };

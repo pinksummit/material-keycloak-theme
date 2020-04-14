@@ -13,8 +13,8 @@
             <form id="kc-form-login" class="form ${properties.kcFormClass!}" action="${url.loginAction}" method="post">
                 <div class="username-container ${properties.kcFormGroupClass!}">
                     <div class="${properties.kcInputWrapperClass!}">
-                        <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon ${properties.kcLabelClass!} <#if usernameEditDisabled??>mdc-text-field--disabled</#if>">
-                            <i class="material-icons mdc-text-field__icon" tabindex="-1" role="button">person</i>
+                        <div class="mdc-text-field mdc-text-field--with-leading-icon ${properties.kcLabelClass!} <#if usernameEditDisabled??>mdc-text-field--disabled</#if>">
+                            <i class="material-icons mdc-text-field__icon login-icon" tabindex="-1" role="button">person</i>
                             <input required id="username" class="mdc-text-field__input ${properties.kcInputClass!}" name="username" value="${(login.username!'')}" type="text" autofocus autocomplete="off" <#if usernameEditDisabled??>disabled</#if>>
                             <div class="${properties.kcLabelWrapperClass!}">
                                 <label for="username" class="mdc-floating-label ${properties.kcLabelClass!}">
@@ -27,30 +27,18 @@
                                     </#if>
                                 </label>
                             </div>
-                            <div class="mdc-notched-outline">
-                                <svg>
-                                    <path class="mdc-notched-outline__path"/>
-                                </svg>
-                            </div>
-                            <div class="mdc-notched-outline__idle"></div>
                         </div>
                     </div>
                 </div>
                 <div class="password-container ${properties.kcFormGroupClass!}">
                     <div class="${properties.kcInputWrapperClass!}">
 
-                        <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon ${properties.kcLabelClass!}">
-                            <i class="material-icons mdc-text-field__icon" tabindex="-1" role="button">lock</i>
+                        <div class="mdc-text-field mdc-text-field--with-leading-icon ${properties.kcLabelClass!}">
+                            <i class="material-icons mdc-text-field__icon login-icon" tabindex="-1" role="button">lock</i>
                             <input required id="password" class="mdc-text-field__input ${properties.kcInputClass!}" name="password" type="password" autocomplete="off">
                             <div class="${properties.kcLabelWrapperClass!}">
                                 <label for="password" class="mdc-floating-label ${properties.kcLabelClass!}">${msg("password")}</label>
                             </div>
-                            <div class="mdc-notched-outline">
-                                <svg>
-                                    <path class="mdc-notched-outline__path"/>
-                                </svg>
-                            </div>
-                            <div class="mdc-notched-outline__idle"></div>
                         </div>
                     </div>
                     <#--  <div id="capsLockWarning" style="font-weight: bold; color: maroon; margin: 0 0 10px 0; display: none;">
