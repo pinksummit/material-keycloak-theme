@@ -68,33 +68,15 @@
                         <div>
                             <hr/>
                             <ol style="padding-left: 15px; margin-top: 10px;">
-                                <li>Type your User ID (i.e. JSMITH) and NetIQ or County Password</li>
+                                <li>Type your User ID and AlwaysOnScene Password</li>
                                 <li>Click the Login button</li>
                             </ol>
                             <hr/>
-                            <p>
-                                Volunteers:
-                            </p>
                             <ul>
                                 <li>
-                                Check your email for your temporary username and password then follow the instructions to set your first password prior to logging in
-                                </li>
-                                <li>
-                                If you did not receive email or still need help: Contact <a href="mailto:NetIQSupport@co.pg.md.us">NetIQSupport@co.pg.md.us</a>
-                                </li>
-                            </ul>
-                            <p>
-                                Career:
-                            </p>
-                            <ul>
-                                <li>
-                                If this is your first-time logging in, please email <a href="mailto:FOSSupport@co.pg.md.us">FOSSupport@co.pg.md.us</a> for instructions
-                                </li>
-                                <li>
-                                Forgot Password: Contact IMD or the OIT Service Desk at (301) 883-5322
-                                </li>
-                                <li>
-                                If you you still need help: Contact <a href="mailto:NetIQSupport@co.pg.md.us">NetIQSupport@co.pg.md.us</a>
+                                Still need help logging in? Click on the following link:
+                                <br/>
+                                <a href="mailto:support@firstonscene.com?Subject=Belmont Login Issue">Support</a>
                                 </li>
                             </ul>
                         </div>
