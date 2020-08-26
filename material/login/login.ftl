@@ -10,6 +10,7 @@
     </div>
     <#elseif section = "form">
         <#if realm.password>
+		    
             <form id="kc-form-login" class="form ${properties.kcFormClass!}" action="${url.loginAction}" method="post">
                 <div class="username-container ${properties.kcFormGroupClass!}">
                     <div class="${properties.kcInputWrapperClass!}">
@@ -98,15 +99,36 @@
                             </#if>
                         </div>
                         <div>
-                            <div class="${properties.kcFormOptionsWrapperClass!} col-xs-12">
+                            <!--<div class="${properties.kcFormOptionsWrapperClass!} col-xs-12">
                                 <#if realm.resetPasswordAllowed>
                                     <span><a href="${url.loginResetCredentialsUrl}">${msg("doForgotPassword")}</a></span>
                                 </#if>
-                            </div>
+                            </div>-->
                         </div>
                     </#if>
                 </div>
             </form>
+			<div>
+                           
+                           
+                            <p>
+                                <center><b>Volunteer Fire Fighters</b><br/> <span style="color:Red;"> Your login and username is the same as your login from previous RMS login</span></center>
+                            </p>
+                            
+                                  <b>Forgot Password:</b> <span><a href="${url.loginResetCredentialsUrl}">Click here to reset password</a></span>.  Note - you will need access to your email that is on file with your account
+                                  <br/><br/>
+								  If you still need help: email FOSSupport@co.pg.md.us for further assistance
+                            
+                            </ul>
+							<hr/>
+                            <p>
+                                <center><b>Career Fire Fighters</b><br/> <span style="color:Red;"> Your login and username is the same as your individual county login credentials and password</span></center>
+                            </p>
+						
+                                  <b>Forgot Password:</b> On a County computer, use CTRL+ALT+DELETE to change your county password. Please allow up to 30 minutes to sync.
+                                  <br/><br/>
+								  If you still need help: email FOSSupport@co.pg.md.us for further assistance
+                        </div>
         </#if>
     <#elseif section = "info" >
         <#if realm.password && social.providers??>
